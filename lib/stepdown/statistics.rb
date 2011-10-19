@@ -145,7 +145,7 @@ module Stepdown
     end
 
     def empty_rest
-      empty[10..empty.length]
+      empty[10..empty.length] || []
     end
 
     def empty_top(limit = 10)

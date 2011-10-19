@@ -8,4 +8,5 @@ group :development,:test do
   gem 'rspec', '~> 2.5.0'
   gem 'rcov', '~> 0.9.9'
   gem 'sass', '~> 3.1.0'
+  gem 'haml', '~> 3.1.3'
 end

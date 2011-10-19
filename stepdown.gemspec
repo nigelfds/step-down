@@ -2,18 +2,18 @@ $:.push File.expand_path("../lib", __FILE__)
 require "stepdown/version"
 
 Gem::Specification.new do |s|
-  s.name = "stepdown"
+  s.name = "stepdown-patched"
   s.version = Stepdown::VERSION
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 1.8.7'
   s.authors = ["Sean Caffery"]
   s.email = ["sean@lineonpoint.com"]
-  s.summary = "Static analysis tool for Cucumber features"
+  s.summary = "Static analysis tool for Cucumber features (patched)"
   s.homepage = "http://stepdown.lineonpoint.com"
-  s.description = "Stepdown allows you to see where your most used Cucumber steps are, your unused steps and how they are clustered"
+  s.description = "Stepdown allows you to see where your most used Cucumber steps are, your unused steps and how they are clustered. This is a clone of the original gem with a patch"
 
   s.required_rubygems_version = ">= 1.3.6"
-  s.rubyforge_project = "stepdown"
+  s.rubyforge_project = "stepdown-patched"
 
   s.add_dependency('haml', '> 2.0')
   s.add_dependency('gherkin', '> 2.3')
